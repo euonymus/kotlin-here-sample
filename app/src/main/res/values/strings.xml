@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">My Kotlin HERE Application</string>
+    <string name="zoom">Zoom</string>
+</resources>
