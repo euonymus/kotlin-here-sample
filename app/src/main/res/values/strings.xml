@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">My Kotlin HERE Application</string>
-    <string name="zoom">Zoom</string>
+    <string name="zoom_in">Zoom In</string>
+    <string name="zoom_out">Zoom Out</string>
 </resources>

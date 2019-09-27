@@ -25,12 +25,12 @@
             android:id="@+id/zoom_in"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/zoom" />
+            android:text="@string/zoom_in" />
 
         <Button
             android:id="@+id/zoom_out"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="@string/zoom_out" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
