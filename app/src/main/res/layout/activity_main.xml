@@ -19,12 +19,18 @@
             android:id="@+id/mapfragment"
             class="com.here.android.mpa.mapping.SupportMapFragment"
             android:layout_width="match_parent"
-            android:layout_height="549dp" />
+            android:layout_height="497dp" />
 
         <Button
-            android:id="@+id/btn_click_me"
+            android:id="@+id/zoom_in"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/zoom" />
+
+        <Button
+            android:id="@+id/zoom_out"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

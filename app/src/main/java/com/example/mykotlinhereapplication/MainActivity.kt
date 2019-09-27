@@ -13,7 +13,7 @@ import androidx.appcompat.app.AppCompatActivity
 
 import android.os.Bundle
 import android.widget.Button
-import android.widget.Toast
+//import android.widget.Toast
 import com.here.android.mpa.common.GeoCoordinate
 import com.here.android.mpa.common.OnEngineInitListener
 import com.here.android.mpa.mapping.Map
@@ -37,10 +37,17 @@ class MainActivity : AppCompatActivity() {
         }
 
         // get reference to button
-        val btn_click_me = findViewById(R.id.btn_click_me) as Button
+        val zoom_in = findViewById(R.id.zoom_in) as Button
         // set on-click listener
-        btn_click_me.setOnClickListener {
-            Toast.makeText(this@MainActivity, "You clicked me.", Toast.LENGTH_SHORT).show()
+        zoom_in.setOnClickListener {
+            map.zoomLevel = map.zoomLevel + 1
+//            Toast.makeText(this@MainActivity, "You clicked me.", Toast.LENGTH_SHORT).show()
+        }
+        // get reference to button
+        val zoom_out = findViewById(R.id.zoom_out) as Button
+        // set on-click listener
+        zoom_out.setOnClickListener {
+            map.zoomLevel = map.zoomLevel - 1
         }
     }
 }
